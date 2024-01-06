@@ -1,0 +1,15 @@
+/* common shared style */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* nav related styels  */
+
+nav {
+  display: flex;
+}
+
+/* nav ul {
+  display: flex;
+} */
