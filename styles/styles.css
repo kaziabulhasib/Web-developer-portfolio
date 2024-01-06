@@ -12,6 +12,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   padding: 12px 30px;
+  margin-right: 10px;
 }
 
 /* nav related styels  */
@@ -24,6 +25,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 nav ul {
@@ -47,4 +49,18 @@ nav span {
 .nav-title {
   font-size: 45px;
   color: #181818;
+}
+
+/* Banner section design */
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px 30px 150px;
+}
+
+.profile-pic {
+  width: 580px;
+  height: 670px;
 }
