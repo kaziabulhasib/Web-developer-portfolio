@@ -19,6 +19,9 @@ body {
 
 .header {
   background-color: #fff8f3;
+  background-image: url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 nav {
@@ -57,10 +60,24 @@ nav span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0 150px;
 }
 
 .profile-pic {
+  width: 500px;
+}
+
+.banner-content {
   width: 580px;
-  height: 670px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  marigin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700px;
+  margin-top: 5px;
 }
